@@ -1,0 +1,4 @@
+tool_id,mean_error,std_error,MAE,count
+Tool_A,-0.0105,0.1002,0.0776,60
+Tool_B,0.2429,0.0916,0.2429,60
+Tool_C,-0.1861,0.1036,0.1916,60

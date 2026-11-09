@@ -1,0 +1,12 @@
+Metric,Value
+Repeatability Variance,0.008186794270953859
+Operator Variance,0.003389759727960581
+Reproducibility Variance,0.003389759727960581
+Total GRR Variance,0.01157655399891444
+Part-to-Part Variance,0.5676147748557047
+Total Variance,0.5791913288546191
+GRR Study Variation (6SD),0.6455663745587434
+Total Study Variation (6SD),4.566277240681547
+GRR % Contribution,1.9987443565164686
+GRR % Study Variation,14.137695556619079
+ndc,9.0

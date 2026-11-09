@@ -60,16 +60,39 @@ Methods: ANOVA, Gauge R&R, Paired t-test, Bland–Altman analysis, SPC
 
 # Repository Structure
 
-
 semiconductor-metrology/
+
 │
-├── content/                 # Simulated measurement datasets
-├── scripts/                 # Data generation and analysis scripts
-├── notebooks/               # Exploratory analysis
+
+├── content/
+
+│   ├── msa_data.csv
+
+│   └── tool_matching_data.csv
+
+│
+├── scripts/   # .py
+
+│   ├── 01_generate_data.py
+
+│   ├── 02_eda.py
+
+│   ├── 02_tool_matching_analysis.py
+
+│   └── 04_msa_validation.py
+
+│
+
 ├── reports/
-│   ├── figures/             # Analysis plots
-│   └── results/             # Statistical analysis outputs
+
+│   ├── figures/             # .png
+
+│   ├── results/             # .csv
+
+│   └── msa_report.md
+
 │
+
 └── README.md
 
 # Data Disclaimer

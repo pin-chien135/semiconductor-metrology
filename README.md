@@ -1,16 +1,14 @@
 # semiconductor-metrology
-Semiconductor Metrology Data Quality & Process Monitoring
-
+## Semiconductor Metrology Data Quality & Process Monitoring
 A Python-based project focused on semiconductor metrology data analysis, measurement system evaluation, and process monitoring.
 
-Project Overview
+# Project Overview
 
 This project simulates wafer Critical Dimension (CD) measurement data and applies statistical methods to evaluate measurement reliability and identify potential sources of variation.
 
 The goal is to develop a practical data analysis workflow for semiconductor manufacturing, covering measurement system analysis (MSA), tool matching, statistical process control (SPC), and anomaly detection.
 
-Project Objectives
-
+# Objects
 Evaluate measurement system repeatability and reproducibility.
 
 Identify operator-related and equipment-related measurement variations.
@@ -21,51 +19,34 @@ Monitor process behavior and detect abnormal measurement patterns.
 
 Build a reproducible data analysis workflow using Python.
 
-Project Modules
+# Project Modules
 
-Module
+Data Simulation & EDA (Completed)
 
-Description
+-Generate wafer CD measurement data and perform exploratory analysis.
 
-Status
+Measurement System Analysis (MSA) (Completed)
 
-Data Simulation & EDA
+-Crossed ANOVA Gauge R&R, variance components, operator comparison, and residual diagnostics.
 
-Generate wafer CD measurement data and perform exploratory analysis.
+Tool Matching (In Progress)
 
-Completed
-
-Measurement System Analysis (MSA)
-
-Crossed ANOVA Gauge R&R, variance components, operator comparison, and residual diagnostics.
-
-Completed
-
-Tool Matching
-
-Evaluate measurement bias and consistency across different tools.
-
-In Progress
+-Evaluate measurement bias and consistency across different tools.
 
 Statistical Process Control (SPC)
 
-Apply control charts and monitor process shifts and drift.
-
-Planned
+-Apply control charts and monitor process shifts and drift.
 
 Anomaly Detection
 
-Explore statistical and machine learning methods for abnormal pattern detection.
-
-Planned
+-Explore statistical and machine learning methods for abnormal pattern detection.
 
 Data Visualization
 
-Develop an interactive dashboard for measurement data analysis.
+-Develop an interactive dashboard for measurement data analysis.
 
-Planned
 
-Technical Stack
+# Technical Stack
 
 Programming: Python
 
@@ -77,7 +58,8 @@ Data Visualization: Matplotlib
 
 Methods: ANOVA, Gauge R&R, Paired t-test, Bland–Altman analysis, SPC
 
-Repository Structure
+# Repository Structure
+
 
 semiconductor-metrology/
 │
@@ -90,10 +72,10 @@ semiconductor-metrology/
 │
 └── README.md
 
-Data Disclaimer
+# Data Disclaimer
 
 All datasets in this repository are simulated for educational and analytical purposes. They do not represent actual semiconductor manufacturing data or proprietary information.
 
-Project Status
+# Project Status
 
 Currently developing the measurement system analysis and tool matching modules, with a focus on translating statistical results into actionable engineering insights.

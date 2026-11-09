@@ -8,6 +8,36 @@ This project simulates wafer Critical Dimension (CD) measurement data and applie
 
 The goal is to develop a practical data analysis workflow for semiconductor manufacturing, covering measurement system analysis (MSA), tool matching, statistical process control (SPC), and anomaly detection.
 
+semiconductor-metrology/
+
+├── content/
+
+│   ├── msa_data.csv
+
+│   └── tool_matching_data.csv
+
+├── reports/
+
+│   ├── figures/             # .png
+
+│   ├── results/             # .csv
+
+│   └── msa_report.md
+
+│
+
+├── scripts/   # .py
+
+│   ├── 01_generate_data.py
+
+│   ├── 02_eda.py
+
+│   ├── 02_tool_matching_analysis.py
+
+│   └── 04_msa_validation.py
+
+└── README.md
+
 # Objects
 Evaluate measurement system repeatability and reproducibility.
 
@@ -58,42 +88,6 @@ Data Visualization: Matplotlib
 
 Methods: ANOVA, Gauge R&R, Paired t-test, Bland–Altman analysis, SPC
 
-# Repository Structure
-
-semiconductor-metrology/
-
-│
-
-├── content/
-
-│   ├── msa_data.csv
-
-│   └── tool_matching_data.csv
-
-│
-├── scripts/   # .py
-
-│   ├── 01_generate_data.py
-
-│   ├── 02_eda.py
-
-│   ├── 02_tool_matching_analysis.py
-
-│   └── 04_msa_validation.py
-
-│
-
-├── reports/
-
-│   ├── figures/             # .png
-
-│   ├── results/             # .csv
-
-│   └── msa_report.md
-
-│
-
-└── README.md
 
 # Data Disclaimer
 

@@ -2,13 +2,13 @@
 ## Semiconductor Metrology Data Quality & Process Monitoring
 A Python-based project focused on semiconductor metrology data analysis, measurement system evaluation, and process monitoring.
 
-# Project Overview
+## Project Overview
 
 This project simulates wafer Critical Dimension (CD) measurement data and applies statistical methods to evaluate measurement reliability and identify potential sources of variation.
 
 The goal is to develop a practical data analysis workflow for semiconductor manufacturing, covering measurement system analysis (MSA), tool matching, statistical process control (SPC), and anomaly detection.
 
-semiconductor-metrology/
+### semiconductor-metrology/
 
 ├── content/
 
@@ -38,7 +38,7 @@ semiconductor-metrology/
 
 └── README.md
 
-# Objects
+## Objects
 Evaluate measurement system repeatability and reproducibility.
 
 Identify operator-related and equipment-related measurement variations.
@@ -49,7 +49,7 @@ Monitor process behavior and detect abnormal measurement patterns.
 
 Build a reproducible data analysis workflow using Python.
 
-# Project Modules
+## Project Modules
 
 Data Simulation & EDA (Completed)
 
@@ -76,7 +76,7 @@ Data Visualization
 -Develop an interactive dashboard for measurement data analysis.
 
 
-# Technical Stack
+## Technical Stack
 
 Programming: Python
 
@@ -89,10 +89,8 @@ Data Visualization: Matplotlib
 Methods: ANOVA, Gauge R&R, Paired t-test, Bland–Altman analysis, SPC
 
 
-# Data Disclaimer
-
+## Data Disclaimer
 All datasets in this repository are simulated for educational and analytical purposes. They do not represent actual semiconductor manufacturing data or proprietary information.
 
-# Project Status
-
+## Project Status
 Currently developing the measurement system analysis and tool matching modules, with a focus on translating statistical results into actionable engineering insights.
